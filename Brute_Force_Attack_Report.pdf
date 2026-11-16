@@ -1,0 +1,182 @@
+# BRUTE FORCE ATTACK USING METASPLOIT FRAMEWORK AND BURP SUITE
+
+## Practical Cybersecurity Lab Report
+
+**Submitted By:** Sheikh Sabbir Hossain
+**Assignment:** Brute Force Attack on Metasploitable
+**Course / Batch:** [Enter Course and Batch]
+**Instructor:** [Enter Instructor Name]
+**Tools:** Metasploit Framework and Burp Suite Community Edition
+**Target:** Metasploitable
+**Submission Date:** 16 November 2026
+
+---
+
+# 1. Introduction
+
+[Write a brief introduction to brute-force attacks, authentication security, and the purpose of this practical lab in your own words.]
+
+# 2. Objectives
+
+- Understand brute-force attack concepts.
+- Learn authentication security testing.
+- Practice using the selected security tools.
+- Observe authentication responses.
+- Identify potential authentication weaknesses.
+- Understand security risks and preventive measures.
+
+# 3. Lab Environment
+
+| Component           | Details                       |
+| ------------------- | ----------------------------- |
+| Attacker Machine    | Kali Linux                    |
+| Target Machine      | Metasploitable                |
+| Virtualization      | [VirtualBox / VMware]         |
+| Network Type        | [Enter Network Configuration] |
+| Testing Environment | Isolated Virtual Lab          |
+
+**Attacker IP Address:** [Enter Kali IP]
+
+**Target IP Address:** [Enter Metasploitable IP]
+
+# 4. Tools and Technologies
+
+## 4.1 Kali Linux
+
+[Describe how Kali Linux was used.]
+
+## 4.2 Metasploit Framework
+
+[Describe the Metasploit module or functionality you actually used.]
+
+## 4.3 Burp Suite Community Edition
+
+[Describe how you used Burp Suite, if applicable.]
+
+## 4.4 Metasploitable
+
+[Describe the target machine and its role in the lab.]
+
+# 5. Methodology
+
+Document the actual steps followed during the practical assessment:
+
+1. Lab environment setup.
+2. Network connectivity verification.
+3. Target discovery.
+4. Service identification.
+5. Protocol selection.
+6. Tool configuration.
+7. Authentication testing.
+8. Result observation.
+9. Evidence collection.
+10. Findings and analysis.
+
+# 6. Practical Execution
+
+## 6.1 Lab Setup
+
+**Description:** [Explain how you configured Kali Linux and Metasploitable.]
+
+**Screenshot:** [Insert Lab Setup Screenshot]
+
+## 6.2 Target Discovery
+
+**Description:** [Explain how you identified the target machine.]
+
+**Attacker IP:** [Enter IP]
+
+**Target IP:** [Enter IP]
+
+**Screenshot:** [Insert Target Discovery Screenshot]
+
+## 6.3 Selected Protocol
+
+**Protocol Used:** [FTP / SSH / Telnet / HTTP]
+
+**Service / Port:** [Enter Actual Service and Port]
+
+**Description:** [Explain why you selected this protocol and what you tested.]
+
+## 6.4 Attack Configuration
+
+**Tool Used:** [Metasploit / Burp Suite]
+
+**Module or Feature:** [Enter Actual Module or Feature]
+
+**Configuration Details:** [Document the actual settings used.]
+
+**Screenshot:** [Insert Configuration Screenshot]
+
+## 6.5 Testing Execution
+
+**Steps Performed:**
+
+[Write the actual steps in chronological order.]
+
+**Commands / Actions:**
+
+[Insert the commands or actions you actually performed.]
+
+**Observations:**
+
+[Describe the tool output and what you observed.]
+
+**Screenshot:** [Insert Execution Screenshot]
+
+## 6.6 Authentication Result
+
+**Testing Result:** [Successful / Unsuccessful / Inconclusive]
+
+**Observed Response:** [Describe the actual response.]
+
+**Explanation:** [Explain what the result means.]
+
+**Screenshot:** [Insert Final Result Screenshot]
+
+# 7. Findings and Analysis
+
+| Finding               | Actual Observation    |
+| --------------------- | --------------------- |
+| Tested Protocol       | SSH                   |
+| Authentication Result | LOGIN BYPASS          |
+| Security Observation  | LAB                   |
+| Potential Risk        | [Enter Verified Risk] |
+
+**Analysis:**
+
+[Explain your findings based on the actual lab results.]
+
+# 8. Security Recommendations
+
+1. Use strong and unique passwords.
+2. Implement account lockout policies.
+3. Apply rate limiting to login attempts.
+4. Enable Multi-Factor Authentication (MFA).
+5. Monitor authentication logs.
+6. Disable unnecessary services.
+7. Use encrypted authentication protocols.
+8. Implement intrusion detection and prevention mechanisms.
+
+# 9. Learning Outcomes
+
+[Describe what you personally learned from completing this practical assignment.]
+
+# 10. Conclusion
+
+[Write your own conclusion based on the protocol tested, the tools used, the results obtained, and the lessons learned.]
+
+# 11. References
+
+- Metasploit Documentation: [https://docs.metasploit.com/](https://docs.metasploit.com/)
+- PortSwigger Web Security Academy: [https://portswigger.net/web-security](https://portswigger.net/web-security)
+- Kali Linux Documentation: [https://www.kali.org/docs/](https://www.kali.org/docs/)
+- OWASP Authentication Cheat Sheet: [https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html)
+
+---
+
+**Author:** Sheikh Sabbir Hossain
+
+**Project:** Metasploitable Brute Force Attack Lab
+
+**Disclaimer:** This practical work is intended only for educational purposes and authorized testing in an isolated lab environment. Unauthorized testing against third-party systems is prohibited.
